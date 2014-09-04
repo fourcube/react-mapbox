@@ -295,4 +295,4 @@ function noop(){}var process=module.exports={};process.nextTick=function(){var o
 },{}]},{},[1])
 
 
-//# sourceMappingURL=./build/index.map.json
+//# sourceMappingURL=index.map.json
