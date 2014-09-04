@@ -6,8 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-js": "browserify lib/react-mapbox.js -d -t reactify > release/react-mapbox.js",
-    "build-js-min": "npm run build-js; mkdir release; browserify lib/react-mapbox.js -d -t reactify -p [minifyify --map build/react-mapbox.map.json --output build/react-mapbox.map.json] > release/react-mapbox.min.js",
-    "build-sample": "mkdir build; browserify index.js -d -t reactify -p [minifyify --map build/index.map.json --output build/index.map.json] > build/index.js"
+    "build-js-min": "npm run build-js; mkdir release; browserify lib/react-mapbox.js -d -t reactify -p [minifyify --map react-mapbox.map.json --output release/react-mapbox.map.json] > release/react-mapbox.min.js",
+    "build-sample": "mkdir build; browserify index.js -d -t reactify -p [minifyify --map index.map.json --output build/index.map.json] > build/index.js"
   },
   "repository": {
     "type": "git",
