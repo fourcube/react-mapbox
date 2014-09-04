@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-js": "browserify -t reactify index.js > build/index.js"
+    "build-js": "mkdir build; browserify -t reactify index.js > build/index.js"
   },
   "repository": {
     "type": "git",
